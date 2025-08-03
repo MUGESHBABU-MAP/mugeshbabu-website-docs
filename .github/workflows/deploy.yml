@@ -16,7 +16,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          persist-credentials: true  # important to push using GitHub token
+          persist-credentials: true  # optional here, safe to keep
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -28,8 +28,9 @@ jobs:
 
       - name: Build project
         run: npm run build
-      - name: Deploy site to GitHub Pages
-        env:
-          GIT_USER: ${{ github.actor }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # default token for pushing
-        run: npm run deploy
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
