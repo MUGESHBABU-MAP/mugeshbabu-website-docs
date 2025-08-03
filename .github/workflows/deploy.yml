@@ -3,7 +3,10 @@ name: Deploy Docusaurus to GitHub Pages
 on:
   push:
     branches:
-      - main  # or "master" if that's your default branch
+      - main  
+
+permissions:
+  contents: write
 
 jobs:
   deploy:
@@ -23,6 +26,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Build project
+        run: npm run build
       - name: Deploy site to GitHub Pages
         env:
           GIT_USER: ${{ github.actor }}
