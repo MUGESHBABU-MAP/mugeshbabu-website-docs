@@ -17,8 +17,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Mugeshbabu',
+  tagline: 'Mugeshbabu',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -27,17 +27,19 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://docs.mugeshbabu.com',
+  url: 'https://mugeshbabu-map.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  // baseUrl: '/',
+  baseUrl: '/mugeshbabu-website-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'mugeshbabu', // Usually your GitHub org/user name.
+  organizationName: 'mugeshbabu-map', // Usually your GitHub org/user name.
   projectName: 'mugeshbabu-website-docs', // Usually your repo name.
 
   deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
