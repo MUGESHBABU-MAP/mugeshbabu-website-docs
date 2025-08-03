@@ -8,6 +8,13 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+// // Replace below with your repo details
+// url: 'https://docs.mugeshbabu.com',
+// baseUrl: '/',
+// projectName: 'YOUR_REPO', // usually your repo name
+// organizationName: 'YOUR_USERNAME', // your GitHub username
+// trailingSlash: false,
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'My Site',
@@ -20,15 +27,17 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://docs.mugeshbabu.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'mugeshbabu', // Usually your GitHub org/user name.
+  projectName: 'mugeshbabu-website-docs', // Usually your repo name.
+
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
