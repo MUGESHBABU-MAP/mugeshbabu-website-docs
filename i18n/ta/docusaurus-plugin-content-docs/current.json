@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Cable Service": {
+    "message": "Cable Service",
+    "description": "The label for category Cable Service in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Internet Service": {
+    "message": "Internet Service",
+    "description": "The label for category Internet Service in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Utility Payments": {
+    "message": "Utility Payments",
+    "description": "The label for category Utility Payments in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Support & Policies": {
+    "message": "Support & Policies",
+    "description": "The label for category Support & Policies in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for the doc item Getting Started in sidebar tutorialSidebar, linking to the doc getting-started"
+  }
+}

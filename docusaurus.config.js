@@ -50,7 +50,16 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'ta'], // 'ta' is the ISO code for Tamil
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      ta: {
+        label: 'தமிழ்',
+        direction: 'ltr', // Tamil is left-to-right
+      },
+    },
   },
 
   presets: [
