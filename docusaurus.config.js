@@ -27,11 +27,12 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://mugeshbabu-map.github.io',
+  // url: 'https://mugeshbabu-map.github.io',
+  url: 'https://docs.mugeshbabu.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  // baseUrl: '/',
-  baseUrl: '/mugeshbabu-website-docs/',
+  baseUrl: '/',
+  // baseUrl: '/mugeshbabu-website-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
