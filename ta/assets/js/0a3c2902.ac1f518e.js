@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmugeshbabu_docs=self.webpackChunkmugeshbabu_docs||[]).push([[8309],{6201:u=>{u.exports=JSON.parse('{"authors":[{"name":"Mugeshbabu Arulmani","title":"Founder, Mugesh Media","url":"https://mugeshbabu.com","page":{"permalink":"/ta/blog/authors/mugeshbabu"},"imageURL":"https://www.mugeshbabu.com/mugeshbabu.jpeg","key":"mugeshbabu","count":4}]}')}}]);

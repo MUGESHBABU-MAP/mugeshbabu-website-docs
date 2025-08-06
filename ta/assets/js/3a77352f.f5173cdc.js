@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmugeshbabu_docs=self.webpackChunkmugeshbabu_docs||[]).push([[917],{2936:e=>{e.exports=JSON.parse('{"tags":[{"label":"Mugeshbabu","permalink":"/ta/blog/tags/mugeshbabu","description":"Mugeshbabu tag description","count":4},{"label":"Mugesh Media","permalink":"/ta/blog/tags/mugeshmedia","description":"Mugesh Media tag description","count":4}]}')}}]);
