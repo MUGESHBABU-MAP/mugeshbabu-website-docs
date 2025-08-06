@@ -108,6 +108,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        { name: 'keywords', content: 'mugeshbabu, cable, internet, utility, support' },
+        { name: 'author', content: 'Mugeshbabu Technologies' },
+      ],
       // Replace with your project's social card
       image: 'img/ThumbnailMugeshMedia.png',
       navbar: {
