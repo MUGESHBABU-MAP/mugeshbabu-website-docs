@@ -50,19 +50,6 @@ const sidebars = {
       items: ['support/contact', 'support/privacy-policy', 'support/terms-of-service', 'support/cancellation-policy'],
     },
   ],
-
-  // But you can create a sidebar manually
-  /*
-  tutorialSidebar: [
-    'intro',
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-   */
 };
 
 export default sidebars;
