@@ -177,11 +177,12 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
       algolia: {
-        appId: 'YOUR_APP_ID',
-        apiKey: 'YOUR_SEARCH_API_KEY',
-        indexName: 'YOUR_INDEX_NAME',
+        appId: 'EAJ0SXTGF5',
+        apiKey: 'bdd388a3cb4c0eed8abbd6da5bc5d178',
+        indexName: 'Mugeshbabu Documentation Site', // Usually same as your app name or docs project name
         contextualSearch: true,
-        // Optional: See docs for more customization
+        container: '#docsearch',
+        searchParameters: {}, // Optional: Algolia search params
       },
     }),
 };
