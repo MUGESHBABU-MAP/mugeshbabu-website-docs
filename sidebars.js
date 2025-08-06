@@ -23,6 +23,12 @@ const sidebars = {
       id: 'getting-started', // same as the file name (without .md)
       label: 'Getting Started',
     },
+    // {
+    //   type: 'doc',
+    //   id: 'mugeshbabu',
+    //   label: 'About',
+    //   className: 'hidden',
+    // },
     {
       type: 'category',
       label: 'Cable Service',

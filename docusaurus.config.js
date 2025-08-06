@@ -17,7 +17,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Mugeshbabu Docs',
+  title: 'Mugeshbabu / Mugesh Media',
   tagline: 'Mend Mould Make',
   favicon: 'img/favicon.ico',
 
@@ -123,6 +123,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
+          // { to: '/docs/mugeshbabu', label: 'About', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/mugeshbabu-map/mugeshbabu-website-docs',
@@ -139,7 +140,7 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/intro',
+                to: '/docs/getting-started',
               },
             ],
           },
@@ -147,12 +148,46 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Discord',
+                href: 'https://discord.gg/pTC9DXUr',
+              },
+            ],
+          },
+          {
+            title: 'Legal',
+            items: [
+              {
+                label: 'Privacy Policy',
+                href: 'https://www.mugeshbabu.com/privacy',
               },
               {
-                label: 'Discord',
-                href: 'https://discord.gg/yourcommunity',
+                label: 'Terms of Service',
+                href: 'https://www.mugeshbabu.com/privacy',
+              },
+              {
+                label: 'Cookie Policy',
+                href: 'https://www.mugeshbabu.com/terms',
+              },
+              {
+                label: 'Refund Policy',
+                href: 'https://www.mugeshbabu.com/refund',
+              },
+            ],
+          },
+          {
+            title: 'Developer',
+            items: [
+              {
+                label: 'Profile',
+                to: '/docs/mugeshbabu',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/mugeshbabu/',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/mugeshmedia/',
               },
             ],
           },
@@ -162,6 +197,10 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
+              },
+              {
+                label: 'Website',
+                href: 'https://www.mugeshbabu.com',
               },
               {
                 label: 'GitHub',
