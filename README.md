@@ -1,4 +1,3 @@
-/*************  ✨ Windsurf Command ⭐  *************/
 # Mugeshbabu
 
 Mugeshbabu is a documentation project that leverages the power of Docusaurus to create comprehensive and interactive documentation. The project aims to provide users with a seamless experience in navigating and understanding the software or topics covered within the documentation.
@@ -25,4 +24,3 @@ For more information, visit the [official GitHub repository](https://github.com/
 
 Mugeshbabu is an excellent choice for anyone looking to create detailed and user-friendly documentation. With its robust feature set and ease of use, it caters to both developers and end-users, ensuring a comprehensive documentation experience.
 
-/*******  e4f5b9be-a078-4a04-90de-dcda9811337a  *******/
